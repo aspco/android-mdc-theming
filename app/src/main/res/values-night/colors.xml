@@ -4,14 +4,14 @@
     <color name="color_primary">#E8EAF6</color>
     <color name="color_primary_variant">@color/color_primary</color>
     <color name="color_on_primary">@color/color_background</color>
-    <color name="color_secondary">#9FA8DA</color>
+    <color name="color_secondary">#FFE082</color>
     <color name="color_secondary_variant">@color/color_secondary</color>
-    <color name="color_on_secondary">#FFFFFF</color>
+    <color name="color_on_secondary">@color/color_background</color>
     <color name="color_error">#EF9A9A</color>
     <color name="color_on_error">#FFFFFF</color>
     <color name="color_surface">@color/color_background</color>
     <color name="color_on_surface">@color/color_primary</color>
-    <color name="color_background">#2B2828</color>
+    <color name="color_background">#292F36</color>
     <color name="color_on_background">@color/color_primary</color>
     <color name="color_status_bar">@color/color_background</color>
 
