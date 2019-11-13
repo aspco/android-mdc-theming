@@ -43,6 +43,7 @@
 
     <style name="AppTextAppearance.Button" parent="TextAppearance.MaterialComponents.Button">
         <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
     </style>
 
     <style name="AppShapeAppearance.SmallComponent" parent="ShapeAppearance.MaterialComponents.SmallComponent">
@@ -76,6 +77,8 @@
         <item name="android:textColor">@color/button_text_color</item>
         <item name="iconTint">@color/button_text_color</item>
         <item name="rippleColor">@color/button_ripple_color</item>
+        <item name="fontFamily">@font/karla</item>
+        <item name="android:fontFamily">@font/karla</item>
     </style>
 
     <style name="AppTextField" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">

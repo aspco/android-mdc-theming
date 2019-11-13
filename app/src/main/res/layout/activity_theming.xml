@@ -46,15 +46,16 @@
                 android:text="Outlined Button" />
 
         <com.google.android.material.button.MaterialButton
-                android:id="@+id/textButton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:layout_marginStart="16dp"
-                style="@style/Widget.MaterialComponents.Button.TextButton"
-                app:layout_constraintTop_toBottomOf="@id/raisedButton"
-                app:layout_constraintStart_toEndOf="@id/outlinedButton"
-                android:text="Text Button" />
+            android:id="@+id/textButton"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/karla"
+            android:text="Text Button"
+            app:layout_constraintStart_toEndOf="@id/outlinedButton"
+            app:layout_constraintTop_toBottomOf="@id/raisedButton" />
 
         <com.google.android.material.chip.Chip
                 android:id="@+id/inputChip"
