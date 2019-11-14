@@ -48,7 +48,7 @@
 
     <style name="AppShapeAppearance.SmallComponent" parent="ShapeAppearance.MaterialComponents.SmallComponent">
         <item name="cornerFamily">rounded</item>
-        <item name="cornerSize">8dp</item>
+        <item name="cornerSize">4dp</item>
     </style>
 
     <style name="AppShapeAppearance.MediumComponent" parent="ShapeAppearance.MaterialComponents.MediumComponent">
@@ -81,8 +81,23 @@
         <item name="android:fontFamily">@font/karla</item>
     </style>
 
-    <style name="AppTextField" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+    <style name="AppTextField" parent="Widget.MaterialComponents.TextInputLayout.FilledBox.Dense">
         <item name="boxBackgroundColor">@color/text_field_background</item>
+        <item name="materialThemeOverlay">@style/EditTextOverlay</item>
+
+    </style>
+
+    <style name="EditTextOverlay" parent="ThemeOverlay.MaterialComponents.TextInputEditText.FilledBox.Dense">
+        <item name="android:editTextColor">@color/color_primary</item>
+    </style>
+
+    <style name="OutlinedEditTextOverlay" parent="ThemeOverlay.MaterialComponents.TextInputEditText.OutlinedBox.Dense">
+        <item name="android:editTextColor">@color/color_primary</item>
+    </style>
+
+    <style name="OutlinedTextField" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="materialThemeOverlay">@style/OutlinedEditTextOverlay</item>
+
     </style>
 
     <style name="AppCard" parent="Widget.MaterialComponents.CardView">
